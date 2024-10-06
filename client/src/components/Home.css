@@ -1,0 +1,29 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 2000px; /* Wysokość na 100% */
+  margin: 0; /* Upewnij się, że nie ma marginesów */
+}
+
+.home-container {
+  flex: 1; /* Sprawia, że kontener zajmuje dostępne miejsce */
+  padding: 20px;
+  height: 100vh;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+button {
+  margin: 5px;
+}
+
+input {
+  margin-top: 10px;
+}

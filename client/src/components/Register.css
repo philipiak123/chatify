@@ -1,0 +1,70 @@
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Wysokość widoku */
+}
+
+.register-form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px; /* Zaokrąglone rogi */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Cień */
+  width: 300px; /* Szerokość formularza */
+  display: flex;
+  flex-direction: column; /* Ułożenie w kolumnie */
+  align-items: center; /* Wyśrodkowanie elementów w formularzu */
+}
+
+h1 {
+  margin-bottom: 20px; /* Odstęp między nagłówkiem a innymi elementami */
+}
+
+.input-field {
+  width: 100%; /* Wypełnia całą szerokość formularza */
+  padding: 15px; /* Wypełnienie w polach tekstowych */
+  margin: 10px 0; /* Margines między polami */
+  border: 1px solid #ddd; /* Ramka */
+  border-radius: 5px; /* Zaokrąglone rogi */
+  font-size: 16px; /* Rozmiar czcionki */
+}
+
+.input-field:focus {
+  outline: none; /* Usuń domyślną ramkę przy fokusie */
+  border-color: #007bff; /* Kolor ramki przy fokusie */
+}
+
+.register-button {
+  width: 100%; /* Wypełnia całą szerokość formularza */
+  padding: 15px; /* Wypełnienie przycisku */
+  background-color: #007bff; /* Kolor tła przycisku */
+  color: white; /* Kolor tekstu przycisku */
+  border: none; /* Usuń domyślną ramkę */
+  border-radius: 5px; /* Zaokrąglone rogi */
+  font-size: 16px; /* Rozmiar czcionki */
+  cursor: pointer; /* Zmiana kursora na wskaźnik */
+  transition: background-color 0.3s; /* Efekt przejścia dla tła */
+}
+
+.register-button:hover {
+  background-color: #0056b3; /* Ciemniejszy kolor przycisku na hover */
+}
+
+.error-message {
+  color: red; /* Kolor komunikatów o błędzie */
+}
+
+.login-link {
+  margin-top: 15px; /* Margines u góry linku do logowania */
+  font-size: 14px; /* Rozmiar czcionki */
+}
+
+.login-link a {
+  color: #007bff; /* Kolor linku */
+  text-decoration: none; /* Bez podkreślenia */
+}
+
+.login-link a:hover {
+  text-decoration: underline; /* Podkreślenie linku na hover */
+}

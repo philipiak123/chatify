@@ -1,0 +1,40 @@
+.chat-container {
+  padding: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  height: 100vh;
+}
+
+.chat-container.dark-mode {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+input[type="text"],
+input[type="file"] {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Dodatkowe style dla trybu ciemnego */
+.dark-mode input[type="text"],
+.dark-mode input[type="file"] {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode button {
+  background-color: #0056b3;
+}
+body{
+	height:100hv;
+}
